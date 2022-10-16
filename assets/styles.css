@@ -1,0 +1,17 @@
+.img {
+    height: 500px;
+    width: 100%;
+
+}
+
+#profilepic {
+    height: 200px;
+    width: auto;
+}
+
+.button:hover input {
+color:darksalmon;
+display:inline-block;
+
+
+}
