@@ -10,8 +10,12 @@
 }
 
 .button:hover input {
-color:darksalmon;
-display:inline-block;
+    color: darksalmon;
+    display: inline-block;
 
 
+}
+
+.button:hover {
+    display: inline-block;
 }
