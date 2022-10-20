@@ -5,12 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <script defer src='./assets/script.js'></script>
+    <title>Portfolio</title>
+
 </head>
+<header>
+    <div class='logo'>
+        <img class='img' src="./assets/header.JPG" />
+    </div>
+    <nav id='navbar'>
+        <ul>
+            <li class='navlink'>
+                <a href='#about' class="about"><button class="button" id="abtn">About</button></a>
+            </li>
+            <li class='navlink'>
+                <a href="#experience" class="experience"><button class="button" id="ebtn">Experience</button></a>
+            </li>
+            <li class='navlink'>
+                <a href='#connect' class="connect"><button class="button" id="cbtn">Connect</button></a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
 <body>
-    <p>Y.R.</p>
-    <article>
+    <header>
+        <div class="profilepic">
+            <img id='profilepic' src="/assets/profilepic.jpg" /><br>
+
+            <caption>Y.R.</caption>
+        </div>
+
+    </header>
+    <section id='about'>
         <h2><em>About</em></h2>
         <p>I am an undergraduate Computer Science student
             that wants to make a career out of software
@@ -20,23 +48,25 @@
             childhood education. I believe technology should be
             accessible to everyone.
         </p>
-    </article>
-    <article>
+    </section>
+    <section id="experience">
         <h2><em>Experience</em></h2>
-        <p> <ul>
+        <p>
+        <ul>
             <li>Code Tenderloing Coding Bootcamp (April-September 2022)</li><br>
             <li>Generation USA Jr. Web Developer Bootcamp (July-December 2022)</li><br>
             <li>Code the Dream Intro to Programming Bootcamp (September -January 2022)</li><br>
-            <li>Computer Science Undergraduate with minor in Cybersecurity (July 2022-September 2024)</li><br></ul>
+            <li>Computer Science Undergraduate with minor in Cybersecurity (July 2022-September 2024)</li><br>
+        </ul>
         </p>
-    </article>
-    <article>
+    </section>
+    <section id='connect'>
         <h2><em>Connect</em></h2>
         <ul>
             <li>Github and Discord Handle: <strong>ytr233</strong></li>
             <li><strong><a href='https://www.linkedin.com/in/yesenia-r-411814241/'>LinkedIn</a></strong></li>
         </ul>
-    </article>
+    </section>
 
 </body>
 
